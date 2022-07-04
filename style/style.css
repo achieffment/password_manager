@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf) format("opentype");
+}
+
+html, body {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+input, button {
+    font-family: Roboto;
+}
+
+header, footer {
+    width: 100%;
+    background-color: #ffffff;
+    background: url("../images/background.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    align-items: center;
+    min-height: 100px;
+    height: 15%;
+    color: white;
+}
+
+section {
+    height: 70%;
+    overflow: auto;
+}
+
+section {
+    height: 85%;
+}
+
+footer {
+    display: none;
+}
+
+.header-time {
+    position: absolute;
+    margin-left: 10px;
+}
+
+.header-time p {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.header-time p:last-child {
+    margin-bottom: 0;
+}
+
+.header-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.header-notifier {
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s;
+    margin-right: 10px;
+    right: 0;
+}
+
+.hidden-info {
+    display: none;
+}
+
+#delete-dialog, #showMore-dialog {
+    display: none;
+}
+
+#showMore-dialog input {
+    width: 100%;
+}
+
+input, textarea {
+    min-height: 80px;
+}
+
+input[name=search] {
+    min-height: 40px;
+}
+
+.buttonAddContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonAdd p {
+    margin: 0;
+}
+
+.buttonAdd {
+    margin-bottom: 15px;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.danger {
+    color: #f54e4a;
+}
+.warning {
+    color: #f5c54a;
+}
+
+.success {
+    color: #26b000;
+}
+
+.showMoreTable td {
+    vertical-align: middle;
+}
+
+.showMoreTable td p {
+    margin: 0;
+}
